@@ -1,0 +1,19 @@
+
+         * 1- complete all models class (pojo ......)
+         * 2- make at least two different type of book with extra field or method
+         * 3- make new package for library action like -> barrow book to member or add book ...
+         * 4- make a generic class named LibraryService and have one method addBook( ... )
+         *  in this method add any kind of book to library
+         *  this class also have this method :
+         *  public void addMember()
+         *  public void checkOutBook(String bookTitle, String memberId)
+         *  public void returnBook(String bookTitle, String memberName)
+         *  write business of these methods
+         * 5- returnBook method should throw exception when memberId or bookTitle is wrong
+         *
+         * 6- in main class make 3 member and 3 different book
+         * add all books and members to library
+         * call checkOutBook and returnBook method from LibraryService ... .. .
+         *
+         * 7- print all member with the check-out Books
+         *
